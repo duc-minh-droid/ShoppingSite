@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="//img.icons8.com/ios-filled/100/000000/shop-two.png">
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>React Shop</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <lottie-player src="https://assets5.lottiefiles.com/datafiles/fab7172a9302d416bcdb8ac7e1c71123/data.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;" loop  autoplay></lottie-player>
+            <p>React</p>
+        </div>
+        <div class=nav-item-container>
+            <ul>
+                <li class="nav-item"><a href="#home"><div class="nav-div">Home</div></a></li>
+                <li class="nav-item"><a href="#banner"><div class="nav-div">Banner</div></a></li>
+                <li class="nav-item"><a href="#product"><div class="nav-div">Products</div></a></li>
+                <li class="nav-item"><a href="#footer"><div class="nav-div">Contact</div></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home">
+        <div id="home-div">
+            <div class="text-contain">
+                <div class="slogan-div"><h2 class="slogan">Every Purchase Will Be Made With Pleasure</h2></div>
+                <!-- <a href=""><div class="start-btn">Start now</div></a> -->
+                <a href="#product" class="cssbuttons-io-button"> Start now
+                    <div class="icon">
+                      <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                    </div>
+                  </a>
+
+                  <button onClick="document.getElementById('footer').scrollIntoView();" class="contact-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span>About</span>
+                  </button>
+                  <!-- <div class="btn-container"><a href="#" class="btn">Contact us</a></div> -->
+                <!-- <a href=""><div class="contact-btn">Contact us</div></a> -->
+            </div>
+            <img class="home-img" src="./—Pngtree—online shopping design concept men_6337623.png" alt="">
+        </div>
+
+        
+    </section>
+
+    <section id="banner" class="banner">
+        <div class="content">
+            <div class="top">
+                <h3 class="heading">Games for Sale</h3>
+                <button class="trending">Trending</button>
+    
+            </div>
+    
+    
+            <div class="main">
+                <div class="card">
+                    <div class="fir-img"></div>
+                    <h3>Call of Duty: The Last Standing Vanguard</h3>
+                    <div class="user">
+                        <img src="https://ui8-unity-gaming.herokuapp.com/img/ava-1.png" alt="">
+                        <div class="name">
+                            <h4 class="player">Tam Tran <i class="fas fa-badge-check"></i></h4>
+                            <h4 class="game">Call of Duty</h4>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="live"><i class="fas fa-wifi"></i> Live</span>
+                        <span class="watch"><i class="fas fa-circle"></i> 4.2K watching</span>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="fir-img thi-img"></div>
+                    <h3>2020 World Champs Gaming Warzone</h3>
+                    <div class="user">
+                        <img src="https://ui8-unity-gaming.herokuapp.com/img/ava-5.png" alt="">
+                        <div class="name">
+                            <h4 class="player">Dash UI8 <i class="fas fa-badge-check"></i></h4>
+                            <h4 class="game">Modern Warfare</h4>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="live"><i class="fas fa-wifi"></i> Live</span>
+                        <span class="watch"><i class="fas fa-circle"></i> 4.2K watching</span>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+                    <div class="fir-img sec-img"></div>
+                    <h3>Team Flash vs Saigon Phantom</h3>
+                    <div class="user">
+                        <img src="https://ui8-unity-gaming.herokuapp.com/img/ava-4.png" alt="">
+                        <div class="name">
+                            <h4 class="player">UI8 Gaming <i class="fas fa-badge-check"></i></h4>
+                            <h4 class="game">Arena of Valor</h4>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="live"><i class="fas fa-wifi"></i> Live</span>
+                        <span class="watch"><i class="fas fa-circle"></i> 4.2K watching</span>
+    
+                    </div>
+    
+                </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+        </div>
+
+    </section>
+
+    <section id="product">
+        <div class="container">
+            <div class="card-1 card-div">
+                <div class="like-icon-div">
+                    <label for="card-1-like" class="like-icon-div-child">
+                        <input type="checkbox" id="card-1-like">
+                        <i class="far fa-heart heart-empty"></i>
+                        <i class="fas fa-heart heart-fill"></i>
+                    </label>
+                </div>
+                
+                <div class="gow-img-div img-div">
+                    <img src="https://github.com/gerrardNwoke/codePen-imgs/blob/main/imgs/gow-figurine.png?raw=true" alt="god-of-war-figurine">
+                </div>
+                <div class="text-container">
+                    <h2 class="item-name">Kratos and Artreus Statue - God Of War</h2>
+                    <p class="date"> Departure date: 31/03/2021 </p>
+                    <div class="pricing-and-cart">
+                        <div class="pricing">
+                            <p class="previous-price">$999</p>
+                            <p class="current-price">$599</p>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-2 card-div">
+                <div class="like-icon-div">
+                    <label for ="card-2-like" class="like-icon-div-child">
+                        <input type="checkbox" id="card-2-like">
+                        <i class="far fa-heart heart-empty"></i>
+                        <i class="fas fa-heart heart-fill"></i>
+                    </label>
+                </div>
+                <div class="sekiro-img-div img-div">
+                    <img src="https://github.com/gerrardNwoke/codePen-imgs/blob/main/imgs/sekiro-figurine.png?raw=true" alt="sekiro-figurine">
+                </div>
+                <div class="text-container">
+                    <h2 class="item-name">Sekiro Statue - Sekiro: Shadows Die Twice</h2>
+                    <p class="date"> Departure date: 31/03/2021 </p>
+                    <div class="pricing-and-cart">
+                        <div class="pricing">
+                            <p class="previous-price">$50</p>
+                            <p class="current-price">$799</p>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-3 card-div">
+                <div class="like-icon-div">
+                    <label for="card-3-like" class="like-icon-div-child">
+                        <input type="checkbox" id="card-3-like">
+                        <i class="far fa-heart heart-empty"></i>
+                        <i class="fas fa-heart heart-fill"></i>
+                    </label>
+                </div>
+                <div class="dazai-img-div img-div">
+                    <img src="https://github.com/gerrardNwoke/codePen-imgs/blob/main/imgs/dazai-figurine.png?raw=true" alt="sekiro-figurine">
+                </div>
+                <div class="text-container">
+                    <h2 class="item-name">Osamu Dazai Funko Pop - Bungou Stray Dogs</h2>
+                    <p class="date"> Departure date: 31/03/2021 </p>
+                    <div class="pricing-and-cart">
+                        <div class="pricing">
+                            <p class="previous-price">$449</p>
+                            <p class="current-price">$279</p>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-4 card-div">
+                <div class="like-icon-div">
+                    <label for="card-4-like" class="like-icon-div-child">
+                        <input type="checkbox" id="card-4-like">
+                        <i class="far fa-heart heart-empty"></i>
+                        <i class="fas fa-heart heart-fill"></i>
+                    </label>
+                </div>
+                <div class="u4-img-div img-div">
+                    <img src="https://github.com/gerrardNwoke/codePen-imgs/blob/main/imgs/u4-figurine.png?raw=true" alt="u4-figurine">
+                </div>
+                <div class="text-container">
+                    <h2 class="item-name">Nathan Drake Statue - Uncharted 4: A Thief's End</h2>
+                    <p class="date"> Departure date: 31/03/2021 </p>
+                    <div class="pricing-and-cart">
+                        <div class="pricing">
+                            <p class="previous-price">$759</p>
+                            <p class="current-price">$499</p>
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <div class="footer__addr">
+              <h1 class="footer__logo">react</h1>
+                  
+              <h2>Contact</h2>
+              
+              <address>
+                5534 Somewhere In. The World 22193-10212<br>
+                    
+                <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+              </address>
+            </div>
+            
+            <ul class="footer__nav">
+              <li class="nav__item">
+                <h2 class="nav__title">Media</h2>
+          
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Facebook</a>
+                  </li>
+          
+                  <li>
+                    <a href="#">Instagram</a>
+                  </li>
+                      
+                  <li>
+                    <a href="#">Whatsapp</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Product</h2>
+                
+                <ul class="nav__ul nav__ul--extra">
+                  <li>
+                    <a href="#">For boys</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">For girls</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Food</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Clothes</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Figures</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Toys</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+                
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Sitemap</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <div class="legal">
+              <p>&copy; 2019 Something. All rights reserved.</p>
+              
+              <div class="legal__links">
+                <span>Made with <span class="heart">♥</span> plain HTML and CSS</span>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script>
+    var setVanta = ()=>{
+    if (window.VANTA) { window.VANTA.WAVES({
+      el: "#home-div",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })}
+    }
+    setVanta()
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
